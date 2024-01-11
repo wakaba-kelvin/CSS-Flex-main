@@ -1,0 +1,169 @@
+
+body{   
+    background-color:  hsl(232, 19%, 15%);    
+}
+.styled{
+    padding: 0;
+    height: 80vh;
+    width: 70vw;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+.header{
+    color: white;
+    margin-bottom: 2rem;
+}
+.headtext{
+    font-size: 25px;
+    font-weight: bold;
+}
+.subtext{
+    font-weight: light;
+}
+.toggle{
+    display: flex;
+    margin-bottom: 2rem;
+    color:lightskyblue;
+    font-weight:light;
+    font-size: 15px;
+   
+}
+.btn{
+    cursor: pointer;
+   width:2.5rem;
+   border-radius: 9px;
+   background-color: aqua;  
+}
+
+.divcircle{
+    border-radius: 60px;
+    background-color: black;
+    width:0.9rem;
+    margin-right:2rem;
+   
+}
+
+
+.profile{
+    display: flex;   
+}
+
+.sectionA{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.section{
+    display: flex;
+}
+
+.smedia{  
+    background-color: hsl(228, 28%, 20%);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.smedia > div{
+    width: 14vw;
+    height:5vh;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;  
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.followers{ 
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight:10;
+    margin-top: 1.5rem;
+}
+
+.days{
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top:-1rem;
+    align-items: center;
+}
+
+.sectionB{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionB > div{
+    width: 16.5vw;
+    height:20vh;
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.pageview{
+    display: flex;
+    background-color: hsl(228, 28%, 20%);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    color: white;
+    height: 200px;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.pageview1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.pageview2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
